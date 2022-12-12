@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid #000000;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.dinosaure {
+    
+    width: 90px;
+    height: 70px;
+    background-image: url(http://tse1.mm.bing.net/th?id=OIP.nq0bf3UgWAJI4la4k3Q2dAHaFu&pid=Api&P=0&w=240&h=185);
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 230px;
+   
+    
+}
+
+.jump {
+    
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    
+    0%{
+        
+        top:10px;
+    }
+    
+    30%{
+        top:117;
+    }
+    
+    50%{
+        top:125;
+    }
+    
+    70%{
+        top:170px;
+    }
+    
+     90%{
+        top:200px;
+    }
+   
+    100% {
+         top:230px;
+    }
+    
+    
+}
+
+
+.cactus{
+    
+    width: 40px;
+    height: 80px;
+    position: relative;
+    top:150px;
+    left:610px;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.hS79sWdIaTBagUx2PP1tAAHaLH&pid=Api&P=0&w=121&h=182);
+    background-size: 40px 80px;
+    background-repeat: no-repeat;
+    animation:cactus  1.2s infinite linear ;
+    border: 1px solid black;
+    
+}
+
+
+@keyframes cactus {
+    
+    0%{
+        
+        left:610px;
+    }
+    
+   
+    100% {
+         left:-20px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
